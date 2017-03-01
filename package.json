@@ -1,16 +1,17 @@
 {
-  "name": "The-Minimal-React",
+  "name": "the-monimal-react",
   "version": "0.0.1",
   "description": "Don't be afraid to use Babel and Webpack...",
   "main": "entry.js",
+  "main1": "about.js",
   "scripts": {
     "test": "test",
-    "build": "./node_modules/.bin/webpack",
-    "dev": "./node_modules/.bin/webpack-dev-server"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leocavalcante/The-Minimal-React.git"
+    "url": "git+https://github.com/leocavalcante/The-Minimal-React.git"
   },
   "keywords": [
     "react",
@@ -32,7 +33,13 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "react-image-slideshow": "^1.5.2",
+    "react-modal": "^1.6.5",
+    "react-paginate": "^4.1.1",
+    "react-portal": "^3.0.0",
+    "react-tabs": "^0.8.2",
+    "tween.js": "^16.6.0"
   }
 }
